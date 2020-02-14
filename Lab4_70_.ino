@@ -315,7 +315,7 @@ void loop()
 
           //WHEN ALL LIGHTS ARE OFF
           if ((ui_Left_Line_Tracker_Data > (ui_Left_Line_Tracker_Dark - ui_Line_Tracker_Tolerance)) && (ui_Middle_Line_Tracker_Data > (ui_Middle_Line_Tracker_Dark - ui_Line_Tracker_Tolerance)) && (ui_Right_Line_Tracker_Data > (ui_Right_Line_Tracker_Dark - ui_Line_Tracker_Tolerance)) ) {
-
+//what is giung on
             //GO STRAIGHT
             if (step <= 800) {
               ui_Right_Motor_Speed = 1700;
